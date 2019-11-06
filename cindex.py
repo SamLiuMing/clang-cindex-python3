@@ -2302,6 +2302,7 @@ class TranslationUnit(ClangObject):
         if isinstance(filename, str):
             filename = filename.encode('utf8')
 
+        args_array = None
         args_length = len(args)
         if args_length > 0:
             args = (arg.encode('utf8') if isinstance(arg, str) else arg
