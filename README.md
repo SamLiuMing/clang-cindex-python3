@@ -1,2 +1,4 @@
-This is simply clang's Python bindings (clang.cindex) ported to Python 3. Please see http://llvm.org/svn/llvm-project/cfe/trunk/bindings/python/ for the original project.
+This is simply clang's Python bindings (clang.cindex) consolidated in a
+separate repository.
 
+Please see <https://github.com/llvm/llvm-project/tree/master/clang/bindings/python/> for the original project (with possibly more up-to-date sources).
